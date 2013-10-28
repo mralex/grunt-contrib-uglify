@@ -90,7 +90,7 @@ module.exports = function(grunt) {
         if (e.message) {
           err.message += '\n' + e.message + '. \n';
           if (e.line) {
-            err.message += 'Line ' + e.line + ' in ' + src + '\n';
+            err.message += 'Line ' + e.line + ' in ' + e.filename + '\n';
           }
         }
         err.origError = e;
