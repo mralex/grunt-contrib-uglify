@@ -38,7 +38,9 @@ exports.init = function(grunt) {
       totalCode += code;
       topLevel = UglifyJS.parse(code, {
         filename: file,
-        toplevel: topLevel
+        toplevel: topLevel,
+        strict: options.strict,
+        allowTrailingCommas: options.allowTrailingCommas
       });
     });
 

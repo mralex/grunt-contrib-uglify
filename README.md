@@ -33,6 +33,18 @@ This task primarily delegates to [UglifyJS2][], so please consider the [UglifyJS
 [UglifyJS2]: https://github.com/mishoo/UglifyJS2
 [UglifyJS documentation]: http://lisperator.net/uglifyjs/
 
+#### strict
+Type: `Boolean`
+Default: `false`
+
+Disables automatic semicolon insertion and support for trailing commas in arrays and objects.
+
+#### allowTrailingCommas
+Type: `Boolean`
+Default: `true`
+
+Allow for trailing commas in arrays and options.
+
 #### mangle
 Type: `Boolean` `Object`
 Default: `{}`

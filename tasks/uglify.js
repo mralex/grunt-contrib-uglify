@@ -24,7 +24,9 @@ module.exports = function(grunt) {
       },
       mangle: {},
       beautify: false,
-      report: false
+      report: false,
+      strict: false,
+      allowTrailingCommas: true
     });
 
     // Process banner.
